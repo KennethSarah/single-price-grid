@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fugaz+One&family=Heebo:wght@300&family=Inter:wght@200;300;400;500;700&family=Josefin+Sans:wght@300;700&family=Karla:wght@400;700&family=Lora:ital@0;1&family=Montserrat:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,500&family=Space+Mono:wght@700&display=swap');
+
+html {
+    box-sizing: border-box;
+
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 239, 246, 1);
+    min-height: 140vh;
+}
+
+#card {
+    width: 70vw;
+    height: 80vh;
+    border-radius: 5px;
+    margin-top: 80px;
+    box-shadow:  -6px 10px 50px 1px rgba(185, 181, 181, 0.75);
+}
+
+#top-section {
+    width: 100%;
+    height: 45%;
+    padding: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(179, 176, 176);
+    font-size: 30px;
+}
+
+ h2 {
+    color: #73e2e2;
+    margin-bottom: 30px;
+}
+
+h3 {
+   color: #cee26cff;
+   margin-bottom: 20px;
+}
+
+#bottom-section {
+    width: 100%;
+    height: 60%;
+    color: white;
+    
+}
+
+#bottom-left-section {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgba(43, 179, 177, 0);
+    vertical-align: top;
+    background-color: #2bb3b1ff;
+    padding: 40px;
+}
+
+#bottom-left-section h4 {
+    margin-bottom: 50px;
+    
+}
+
+#bottom-right-section {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0);
+    vertical-align: top;
+    background-color: rgba(74, 190, 189, 1);
+    padding: 40px;
+    line-height: 40px;
+}
+
+button {
+    color: white;
+    background-color: #cee26cff;
+    border: none;
+    padding: 25px;
+    width: 100%;
+    font-size: 20px;
+    font-family: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -6px 10px 50px 1px rgba(25, 24, 24, 0.75);
+    
+}
+button:hover {
+    color: #262919;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+#price {
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p, ul {
+    font-size: 30px;
+}
+
+#price-fq, #price {
+    display: inline-block;
+}
+
+#price-fq {
+    font-size: 20px;
+    position: relative;
+    top: -9px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+}
+
+#price-container {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#bottom-left-section p {
+    margin-bottom: 70px;
+}
+
+#bottom-right-section h4 {
+    margin-bottom: 25px;
+}
